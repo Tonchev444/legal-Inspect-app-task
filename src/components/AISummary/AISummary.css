@@ -1,0 +1,26 @@
+.document-container {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
+}
+.recomendation-container {
+  background-color: var(--recommendation-bg);
+  border-radius: var(--br-md);
+  text-align: left;
+  padding: var(--p-md);
+  line-height: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-md);
+}
+
+.recomendation-container .header {
+  font-size: 16px;
+  font-weight: var(--f-bold);
+}
+
+.suggestion-button {
+  color: var(--text-h);
+  font-weight: var(--f-bold);
+}

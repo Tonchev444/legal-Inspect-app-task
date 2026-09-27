@@ -1,0 +1,17 @@
+.user-dropdown-menu {
+  position: absolute;
+  left: 0;
+  padding: 8px;
+  background-color: white;
+  border: 1px solid lightgray;
+  z-index: 999999999;
+  border-radius: var(--br-md);
+}
+.avatar-wrapper {
+  display: flex;
+}
+.avatar-wrapper img {
+  width: 30px;
+  border-radius: 30px;
+  height: 30px;
+}

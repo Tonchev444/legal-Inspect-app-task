@@ -1,0 +1,22 @@
+.list-container > div {
+  display: flex;
+}
+.list-container {
+  display: flex;
+  gap: var(--gap-md);
+  flex-direction: column;
+}
+.show-all-container {
+  text-align: left;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  font-weight: var(--f-bold)
+  color: var(--text-link);
+}
+.show-all-container:hover {
+  color: var(--text-link-hover);
+}
+
+.show-all-container:active {
+  color: var(--text-link-active);
+}

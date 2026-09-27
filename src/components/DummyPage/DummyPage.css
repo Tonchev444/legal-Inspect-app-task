@@ -1,0 +1,27 @@
+.title-section {
+  height: 32px;
+  width: 50%;
+  background-color: #e0e0e0;
+  border-radius: var(--br-sm);
+  margin-bottom: 20px;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+.items-section {
+  height: 20px;
+  width: 100%;
+  background-color: #eee;
+  border-radius: var(--br-sm);
+  margin-bottom: 10px;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+.content-section {
+  height: 300px;
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: var(--br-sm);
+  margin-bottom: 20px;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+.dummy-title {
+  text-align: left;
+}

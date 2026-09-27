@@ -1,0 +1,76 @@
+.num-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-md);
+  border-radius: 12px;
+  padding: 16px 20px;
+  color: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.num-body {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-sm);
+  min-width: 0;
+}
+
+.num-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.percentage-symbol {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--text);
+  margin-left: 2px;
+}
+
+.num-badge {
+  display: flex;
+  align-items: flex-end;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: var(--f-bold)
+  white-space: nowrap;
+  align-self: flex-end;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.badge-text {
+  line-height: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+  display: block;
+}
+
+.badge-positive {
+  color: #4ade80;
+}
+
+.badge-negative {
+  color: #f87171;
+}
+
+.icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.badge-icon {
+  font-size: 14px;
+  stroke-width: 2.5;
+}

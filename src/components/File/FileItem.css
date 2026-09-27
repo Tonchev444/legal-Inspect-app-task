@@ -1,0 +1,64 @@
+.file-item {
+  display: flex;
+}
+
+.file-container {
+  display: flex;
+  flex: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.actions {
+  display: flex;
+  flex-directions: col;
+}
+
+.actions button {
+  background-color: transparent;
+  padding: var(--p-sm);
+}
+
+.actions svg {
+  width: 20px;
+  height: 20px;
+}
+
+.file-container .info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: var(--gap-sm);
+  align-items: flex-start;
+}
+
+.file-container .icon {
+  display: flex;
+}
+
+.file-container .content {
+  width: 100%;
+  display: flex;
+}
+
+.info .title {
+  font-size: 16px;
+  font-weight: var(--f-bold)
+  line-height: 16px;
+  max-width: 122px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  @media (max-width: 1280px) {
+    font-size: 12px;
+  }
+}
+.info .subtitle {
+  font-size: 12px;
+  line-height: 12px;
+  color: var(--text-h);
+}
+
+.file-body {
+  display: flex;
+}

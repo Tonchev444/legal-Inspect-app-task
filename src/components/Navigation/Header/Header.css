@@ -1,0 +1,118 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  padding: 0 var(--p-lg);
+  background-color: var(--card-bg);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  gap: var(--gap-lg);
+  width: 100%;
+}
+.header-title {
+  display: flex;
+  flex: 1;
+  text-align: left;
+  @media (max-width: 768px) {
+    flex: 2;
+  }
+}
+.header-title h1 {
+  margin: 0;
+}
+.header-body {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  gap: var(--gap-xl);
+  @media (max-width: 768px) {
+    flex: 1;
+    gap: var(--gap-sm);
+    justify-content: flex-end;
+  }
+}
+.header-search {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-md);
+  padding: var(--p-sm) var(--p-lg);
+  border-radius: var(--br-md);
+  border: 1.5px solid var(--border);
+  width: stretch;
+  @media (max-width: 768px) {
+    border-color: transparent;
+    width: auto;
+    padding: 0;
+  }
+}
+.header-search input {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+.mobile-menu-button {
+  display: none;
+  @media (max-width: 768px) {
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: var(--p-sm);
+    border-radius: var(--br-sm);
+  }
+}
+.header-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: var(--p-sm);
+  border-radius: var(--br-sm);
+}
+.header-button:hover {
+  background: none;
+  color: black;
+  @media (max-width: 768px) {
+    color: white;
+  }
+}
+.header-button:active {
+  color: var(--text);
+  background: none;
+  @media (max-width: 768px) {
+    color: white;
+  }
+}
+.header-button svg {
+  width: 20px;
+  height: 20px;
+}
+.user-actions {
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+.header-body .user-actions {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+.user-actions .profile-btn {
+  display: none;
+}
+@media (min-width: 767px) {
+  .user-actions > *:not(:last-child) {
+    border-right: 1px solid var(--border-color, #334155);
+    padding-right: 16px;
+  }
+  .user-actions .profile-btn {
+    display: block;
+  }
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}
+.header-title h1 {
+  line-height: 26px;
+}

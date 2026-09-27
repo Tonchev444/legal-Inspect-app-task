@@ -1,0 +1,60 @@
+.chart-card {
+  background-color: var(--card-bg);
+  border-radius: var(--br-md);
+  padding: var(--p-lg);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.chart-title {
+  font-size: 1.125rem;
+  font-weight: var(--f-bold)
+  color: var(--text-dark);
+  margin: 0;
+}
+
+.chart-legend {
+  display: flex;
+  gap: 10px;
+}
+
+.legend-pill {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+
+.pill-analyzed {
+  background-color: var(--bg);
+  color: var(--green-1);
+  border: 1px solid var(--green-2);
+}
+
+.pill-risks {
+  background-color: var(--red-1);
+  color: var(--red-3);
+  border: 1px solid var(--red-2);
+}
+
+.chart-body {
+  width: 100%;
+}
+
+.custom-tooltip-badge {
+  background-color: var(--red-1);
+  color: var(--red-2);
+  border: 1px solid var(--red-2);
+  padding: 6px 14px;
+  border-radius: var(--br-md);
+  font-size: 0.8125rem;
+  font-weight: var(--f-bold)
+  box-shadow: var(--shadow-2);
+}
